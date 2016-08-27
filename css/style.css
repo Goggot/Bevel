@@ -174,7 +174,7 @@ input::-webkit-input-placeholder {
   font-size: 12px;
   font-weight: 600;
   font-family: 'sans';
-  color: black;
+  color: #CCCCCC;
 }
 
 .user-face {
@@ -198,6 +198,11 @@ input::-webkit-input-placeholder {
 
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.3s cubic-bezier(.24,.59,.46,.93);
+  
+  
+  -moz-box-shadow:    0px 0px 60px 20px #202020;
+  -webkit-box-shadow: 0px 0px 60px 20px #202020;
+  box-shadow:         0px 0px 60px 20px #202020;
 }
 
 #controls {
